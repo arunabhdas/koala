@@ -6,9 +6,9 @@ FlowRouter.route('/', {
 });
 
 
-FlowRouter.route('/test', {
-	name: 'test',
+FlowRouter.route('/projects-all', {
+	name: 'projects-all',
 	action() {
-		BlazeLayout.render('MainLayout', {main: 'Test'});
+		BlazeLayout.render('MainLayout', {main: 'Projects'});
 	}
 });
